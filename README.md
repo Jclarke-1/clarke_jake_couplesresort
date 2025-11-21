@@ -1,4 +1,4 @@
-# {Completed Couples Resort Build}
+# Completed Couples Resort Build
 The completed couples resort build for IDP
 ## Installation
 No installation needed, just drag the html files into your preferred browser
