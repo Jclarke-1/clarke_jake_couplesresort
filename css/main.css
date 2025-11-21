@@ -12,6 +12,7 @@
     8. Footer
     9. Rooms Page
     10. Spa Page
+    11. FAQ Page
 
 */
 
@@ -444,13 +445,28 @@ body {
 
  /* 10. --- Spa Page --- */
 
+ #spa-welcome {
+   font-size: 14px;
+   line-height: 22px;
+}
+
+   #spa-welcome p:first-of-type {
+    border-top: solid 3px #CF6666;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
  
+   .spa-policies {
+      font-size: 20px;
+   }
+
  #hero-policies {
     font-size: 12px;
     background-color: #efefef;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 5px;
  }
 
  #hero-policies h2 {
@@ -511,7 +527,8 @@ font-size: 13px;
     background-color: #efefef;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
    }
 
  #ontario-spa h2 {
@@ -545,4 +562,68 @@ font-size: 13px;
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
+ }
+
+ /* --- 11. FAQ Page --- */
+
+ .faq-list {
+    margin-bottom: 16px;
+ }
+ 
+.faq-list h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
+ }
+
+#faq-welcome {
+   font-size: 14px;
+   line-height: 22px;
+   text-align:center
+}
+
+#faq-welcome p:first-of-type {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+.faq-product-list ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+ }
+ 
+ .faq-product-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #9a2018;
+ }   
+ 
+ .faq-product-list a {
+    color: inherit;
+    font-size: 13px;
+ }
+ 
+ .faq-product-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #bear-trail {
+    font-size: 12px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+ }
+
+ #bear-trail h3 {
+   padding-top: 10px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+ }
+
+ #trail-con div {
+   display: flex;
+   justify-content: center;
  }
