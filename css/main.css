@@ -11,6 +11,7 @@
     7. Contact Form
     8. Footer
     9. Rooms Page
+    10. Spa Page
 
 */
 
@@ -439,4 +440,109 @@ body {
 
  #hero-room ul {
    padding-left: 20px;
+ }
+
+ /* 10. --- Spa Page --- */
+
+ 
+ #hero-policies {
+    font-size: 12px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+ }
+
+ #hero-policies h2 {
+   padding-top: 10px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+ }
+
+ #policies-con div {
+   display: flex;
+   justify-content: center;
+ }
+
+  .spa-hero-img-h2 {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 14px;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    align-self: end;
+ }
+ 
+ .spa-hero-img-h2 span {
+    color: #9a2018;
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 20px;
+ }
+
+ 
+.spa-items {
+    margin-bottom: 16px;
+ }
+ 
+ .spa-items h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
+ }
+
+ .waxing-info-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+.spa-items p {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018; 
+}
+
+.waxing-info p {
+color: inherit;
+font-size: 13px;
+}
+
+ #ontario-spa {
+    font-size: 12px;
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+   }
+
+ #ontario-spa h2 {
+   padding-top: 10px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   }
+
+ #ontario-spa-con div {
+   display: flex;
+   justify-content: center;
+   }
+
+   
+ 
+.spa-products {
+    margin-bottom: 16px;
+ }
+ 
+.spa-products h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
+ }
+
+ .circumstances-info {
+    margin-bottom: 16px;
+ }
+ 
+.circumstances-info h3 {
+    background: #e8e7e7;
+    padding: 10px;
+    font-size: 15px;
  }
