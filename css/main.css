@@ -734,9 +734,28 @@ font-size: 13px;
     border: none;
     transition: all 200ms ease-in;
     width: 150px;
+    cursor: pointer;
  } 
 
-  #questionform input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
- } 
+ @keyframes jiggle {
+   0% {transform: translateX(0);}
+   25% {transform: translateX(-3px;)}
+   50% {transform: translateX(3px;)}
+   75% {transform: translateX(-5px);}
+   100% {transform: translateX(0px;)}
+ }
+
+ .jiggle:hover {
+   animation: jiggle .10s infinite linear;
+ }
+
+.check-con {
+   display: flex;
+   align-items:flex-start
+}
+
+input[type="checkbox"] {
+   margin-right: 10px;
+   margin-top: 5px;
+}
+  
