@@ -734,6 +734,7 @@ font-size: 13px;
     border: none;
     transition: all 200ms ease-in;
     width: 150px;
+    cursor: pointer;
  } 
 
  @keyframes jiggle {
