@@ -846,3 +846,52 @@ input[type="checkbox"]:checked + label::after {
    padding-top: 20px;
  } 
 
+#room-options-top-row {
+   margin-top: 40px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#room-options-middle-row {
+   margin-top: 70px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#rooms-options-bottom {
+   margin-top: 70px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+#main-footer-desk {
+    background-image: url(../images/footer-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    overflow: hidden;
+ }
+
+ #main-footer-desk div {
+   margin-left: 13px;
+ }
+
+ #main-footer-desk p {
+   margin-left: 20px;
+ }
+
+  #price-policy-desk {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 30px;
+    line-height: 22px;
+ }
