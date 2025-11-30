@@ -761,12 +761,12 @@ font-size: 13px;
    align-items:flex-start
 }
 
-input[type="checkbox"] {
+.check-con input[type="checkbox"] {
    margin-right: 10px;
    margin-top: 5px;
 }
 
-input[type="checkbox"]:checked + label::after {
+.check-con input[type="checkbox"]:checked + label::after {
    content: '✅'
 }
   
