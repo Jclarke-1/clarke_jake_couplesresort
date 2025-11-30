@@ -22,11 +22,12 @@
             </label>
                 <ul id="burger-con">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Rooms</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
                     <li><a href="#">Packages</a></li>
                     <li><a href="#">Dining</a></li>
-                    <li><a href="#">Spa Activities</a></li>
+                    <li><a href="spa.html">Spa Activities</a></li>
                     <li><a href="#">Reservations</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
         </nav>
         <div id="logo" class="col-span-full">
@@ -35,8 +36,8 @@
     </header>
     
     <main>
-        <section id="main-hero" class="grid-full">
-                <img src="images/hero-main.jpg" alt="couples resort on lake" class="col-span-full hero-overlap">
+        <section id="faqhero" class="grid-full">
+                <img src="images/cr_mobile_FAQhero.png" alt="couples on the Couples Resort lake" class="col-span-full hero-overlap">
                 <div class="grid-con col-span-full hero-overlap">
                     <a class="book-now col-start-3 col-end-5" id="book-now-top" href="#">Book Now</a>
                     <h2 class="hero-img-h2"><span>Couples Resort</span><br> FAQ</h2> 
@@ -51,59 +52,86 @@
          <section class="faqpage grid-con">               
                 <h3 class="hidden">Frequently Asked Questions</h3>
              <div class="faq-list col-span-full">
-                    <h3>&#9658; What is your Check in and Check out times?</h3>
+                <details>
+                    <summary> What is your Check in and Check out times?</summary>
+                </details>
              </div>
 
 	          <div class="faq-list col-span-full">
-                    <h3>&#9658; Are meals included in the price?e</h3>
+                <details>
+                    <summary> Are meals included in the price?e</summary>
+                </details>
                 </div>
 
              <div class="faq-list col-span-full">
-                    <h3>&#9658; What does all-inclusive Mean?</h3>
+                <details>
+                    <summary> What does all-inclusive Mean?</summary>
+                </details>
                </div>
 
             <div class="faq-list col-span-full">
-                    <h3>&#9658; Do you accept Pets?</h3>
+                <details>
+                    <summary> Do you accept Pets?</summary>
+                </details>
             </div>
 
              <div class="faq-list col-span-full">
-                <h3>&#9658; Is there Internet Available?</h3>
+                <details>
+                <summary>Is there Internet Available?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; Do you have EV CHargers?</h3>
+                <details>
+                <summary>Do you have EV CHargers?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; Is Tipping Required?</h3>
+                <details>
+                <summary> Is Tipping Required?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; How do I get to The Couples Resort?</h3>
+                <details>
+                <summary>How do I get to The Couples Resort?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; What Amenities are in the Rooms?</h3>
+                <details>
+                <summary> What Amenities are in the Rooms?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; When is the outdoor pool open?</h3>
+                <details>
+                <summary> When is the outdoor pool open?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; Why Thermal salt-water pool?</h3>
+                <details>
+                <summary> Why Thermal salt-water pool?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; Where are the moose?</h3>
+                <details>
+                <summary>Where are the moose?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9658; What's the weather forecast?</h3>
+                <details>
+                <summary> What's the weather forecast?</summary>
+                </details>
             </div>
 
             <div class="faq-list col-span-full">
-                <h3>&#9660; Where can i Buy your Products?</h3>
+                <details>
+                <summary> Where can i Buy your Products?</summary>
                 <div class="faq-product-con">
                     <div class="faq-product-list">
                         <ul>
@@ -113,6 +141,7 @@
                         </ul>
                     </div>
                 </div>
+                </details>
             </div>
 </section>
 
@@ -123,6 +152,22 @@
                 <p id="savour-canada">Recognized by Savour Canada as a significant contributor to buying Ontario Food Products.<br>We produce vegetable food products on site.<br>All organic kitchen waste is composted and used in our gardens.<br> No pesticides are used in our vegetable gardens or flower gardens.
                 </p>
             </div>
+        </div>
+    </section>
+
+    <section class="grid-con" id="questionform">
+        <h3 class="col-span-full">Any Questions We Haven't Answered?</h3>
+        <div class="col-span-full">
+        <form action="email.php" method="post">
+            <input name="fullname" type="text" placeholder="first/lastname">
+            <input type="text" id="email" placeholder="email address">
+            <textarea name="questions" placeholder="Enter your Questions here"></textarea>
+            <div class="check-con">
+            <input type="checkbox" id="agreement">
+            <label for="agreement">I Agree to sharing my Email Address with Couples Resort</label>
+            </div>
+            <input name="submit" type="submit" value="submit" class="jiggle">
+        </form>
         </div>
     </section>
         

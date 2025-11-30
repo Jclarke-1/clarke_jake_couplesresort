@@ -13,6 +13,7 @@
     9. Rooms Page
     10. Spa Page
     11. FAQ Page
+    12. Desktop Rooms Page
 
 */
 
@@ -43,6 +44,12 @@
    margin: 20px auto 20px auto;
    border-radius: 10px;
 } 
+
+#desktop-outline {
+outline: 20px solid #333;
+width: 1200px;
+margin: 20px auto 20px auto;
+border-radius: 10px; }
 
 a {
     text-decoration: none;
@@ -429,6 +436,11 @@ body {
 
  /* 9. --- Rooms Page --- */
 
+ #room-hero img {
+   width: 412px;
+   height: 220px;
+ }
+
    #hero-room h2:first-of-type {
     border-top: solid 3px #CF6666;
     margin-top: 15px;
@@ -436,11 +448,61 @@ body {
  } 
 
  #hero-room h2 {
-   margin-bottom: 20px;
+   margin-bottom: 10px;
  }
 
  #hero-room ul {
    padding-left: 20px;
+   padding-bottom: 20px;
+ }
+
+ #chateaus {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #villas {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #chalets {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #masters {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #exotics {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #juniors {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #duplexes {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
  }
 
  /* 10. --- Spa Page --- */
@@ -480,6 +542,17 @@ body {
    justify-content: center;
  }
 
+ #spahero-img {
+   width: 412px;
+   height: 220px;
+ }
+
+ #spa-features-about p:first-of-type {
+   border-top: solid 3px #CF6666;
+      margin-top: 20px;
+    padding-top: 30px;
+ }
+
   .spa-hero-img-h2 {
     background: rgb(255, 255, 255);
     padding: 15px 15px;
@@ -501,7 +574,7 @@ body {
     margin-bottom: 16px;
  }
  
- .spa-items h3 {
+ .spa-items summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -548,7 +621,7 @@ font-size: 13px;
     margin-bottom: 16px;
  }
  
-.spa-products h3 {
+.spa-products summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -558,7 +631,7 @@ font-size: 13px;
     margin-bottom: 16px;
  }
  
-.circumstances-info h3 {
+.circumstances-info summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -566,11 +639,20 @@ font-size: 13px;
 
  /* --- 11. FAQ Page --- */
 
+#faqhero img {
+   width: 412px;
+   height: 220px;
+}
+   #faq-welcome p a:hover {
+      color:#9a2018;
+   }
+
+
  .faq-list {
     margin-bottom: 16px;
  }
  
-.faq-list h3 {
+.faq-list summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -594,7 +676,7 @@ font-size: 13px;
     list-style-type: none;
  }
  
- .faq-product-list li {
+ .faq-product-list li:last-of-type {
     padding: 8px 0;
     border-bottom: 1px solid #9a2018;
  }   
@@ -626,4 +708,190 @@ font-size: 13px;
  #trail-con div {
    display: flex;
    justify-content: center;
+ }
+
+
+ #questionform h3 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ #questionform form {
+   display: flex;
+   flex-direction: column;
+ }
+
+ #questionform input, textarea {
+   padding: 14px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   font: inherit;
+ }
+
+ #questionform textarea {
+    height: 250px;
+ }
+
+ #questionform input[type="submit"] {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 150px;
+    cursor: pointer;
+ } 
+
+ @keyframes jiggle {
+   0% {transform: translateX(0);}
+   25% {transform: translateX(-3px;)}
+   50% {transform: translateX(3px;)}
+   75% {transform: translateX(-5px);}
+   100% {transform: translateX(0px;)}
+ }
+
+ .jiggle:hover {
+   animation: jiggle .10s infinite linear;
+ }
+
+.check-con {
+   display: flex;
+   align-items:flex-start
+}
+
+.check-con input[type="checkbox"] {
+   margin-right: 10px;
+   margin-top: 5px;
+}
+
+.check-con input[type="checkbox"]:checked + label::after {
+   content: '✅'
+}
+  
+   /* --- 12. Rooms Desktop Page --- */
+
+#main-header-desk img{
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#desk-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 30px;
+}
+
+#desk-nav li {
+  display: inline;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+#desk-nav ul li #booknow {
+   color: white;
+   background-color:#9a2018;
+   padding: 47px 47px;
+   margin-right: 0px;
+   border-right: 0px;
+   margin-bottom: 0px;
+   font-style: italic;
+   transition:all 1s ease;
+   cursor: pointer;
+}
+
+#desk-nav ul li #booknow:hover {
+   box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+}
+
+#desk-nav li:last-child {
+   margin-right: 0px;
+}
+
+#main-header-desk div {
+   padding-right: 30px;
+   border-right:rgb(196, 28, 28) solid 2px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.desk-hero-overlap {
+   grid-row: 1/1;
+}
+
+.desk-hero-img-h2 {
+   background: rgb(255, 255, 255);
+   padding: 15px 15px;
+   font-size: 14px;
+   grid-column: 1/4;
+   grid-row: 2/3;
+   align-self: end;
+}
+
+ .desk-hero-img-h2 span {
+   color: #9a2018;
+   font-size: 12px;
+   margin-bottom: 15px;
+   line-height: 20px;
+ }
+
+ #desk-hero-rooms h2:first-of-type {
+   border-top: solid 3px #CF6666;
+   margin-top: 15px;
+   padding-top: 20px;
+ } 
+
+#room-options-top-row {
+   margin-top: 40px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#room-options-middle-row {
+   margin-top: 70px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#rooms-options-bottom {
+   margin-top: 70px;
+   margin-bottom: 70px;
+   display: flex;
+   justify-content: center;
+}
+
+#main-footer-desk {
+    background-image: url(../images/footer-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    overflow: hidden;
+ }
+
+ #main-footer-desk div {
+   margin-left: 13px;
+ }
+
+ #main-footer-desk p {
+   margin-left: 20px;
+ }
+
+  #price-policy-desk {
+    border-top: solid 3px #CF6666;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 30px;
+    line-height: 22px;
  }
