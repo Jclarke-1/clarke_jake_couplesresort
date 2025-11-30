@@ -429,6 +429,11 @@ body {
 
  /* 9. --- Rooms Page --- */
 
+ #room-hero img {
+   width: 412px;
+   height: 220px;
+ }
+
    #hero-room h2:first-of-type {
     border-top: solid 3px #CF6666;
     margin-top: 15px;
@@ -436,11 +441,61 @@ body {
  } 
 
  #hero-room h2 {
-   margin-bottom: 20px;
+   margin-bottom: 10px;
  }
 
  #hero-room ul {
    padding-left: 20px;
+   padding-bottom: 20px;
+ }
+
+ #chateaus {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #villas {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #chalets {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #masters {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #exotics {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #juniors {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
+ }
+
+ #duplexes {
+   margin-left: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   margin-top: 40px;
  }
 
  /* 10. --- Spa Page --- */
@@ -480,6 +535,17 @@ body {
    justify-content: center;
  }
 
+ #spahero-img {
+   width: 412px;
+   height: 220px;
+ }
+
+ #spa-features-about p:first-of-type {
+   border-top: solid 3px #CF6666;
+      margin-top: 20px;
+    padding-top: 30px;
+ }
+
   .spa-hero-img-h2 {
     background: rgb(255, 255, 255);
     padding: 15px 15px;
@@ -501,7 +567,7 @@ body {
     margin-bottom: 16px;
  }
  
- .spa-items h3 {
+ .spa-items summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -548,7 +614,7 @@ font-size: 13px;
     margin-bottom: 16px;
  }
  
-.spa-products h3 {
+.spa-products summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -558,7 +624,7 @@ font-size: 13px;
     margin-bottom: 16px;
  }
  
-.circumstances-info h3 {
+.circumstances-info summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -566,11 +632,20 @@ font-size: 13px;
 
  /* --- 11. FAQ Page --- */
 
+#faqhero img {
+   width: 412px;
+   height: 220px;
+}
+   #faq-welcome p a:hover {
+      color:#9a2018;
+   }
+
+
  .faq-list {
     margin-bottom: 16px;
  }
  
-.faq-list h3 {
+.faq-list summary {
     background: #e8e7e7;
     padding: 10px;
     font-size: 15px;
@@ -594,7 +669,7 @@ font-size: 13px;
     list-style-type: none;
  }
  
- .faq-product-list li {
+ .faq-product-list li:last-of-type {
     padding: 8px 0;
     border-bottom: 1px solid #9a2018;
  }   
@@ -627,3 +702,41 @@ font-size: 13px;
    display: flex;
    justify-content: center;
  }
+
+
+ #questionform h3 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+
+ #questionform form {
+   display: flex;
+   flex-direction: column;
+ }
+
+ #questionform input, textarea {
+   padding: 14px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   font: inherit;
+ }
+
+ #questionform textarea {
+    height: 250px;
+ }
+
+ #questionform input[type="submit"] {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 150px;
+ } 
+
+  #questionform input[type="submit"]:hover {
+    background-color: #626262;
+    border-radius: 0;
+ } 
