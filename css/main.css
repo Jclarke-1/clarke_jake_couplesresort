@@ -13,6 +13,7 @@
     9. Rooms Page
     10. Spa Page
     11. FAQ Page
+    12. Desktop Rooms Page
 
 */
 
@@ -43,6 +44,12 @@
    margin: 20px auto 20px auto;
    border-radius: 10px;
 } 
+
+#desktop-outline {
+outline: 20px solid #333;
+width: 1200px;
+margin: 20px auto 20px auto;
+border-radius: 10px; }
 
 a {
     text-decoration: none;
@@ -763,3 +770,79 @@ input[type="checkbox"]:checked + label::after {
    content: '✅'
 }
   
+   /* --- 12. Rooms Desktop Page --- */
+
+#main-header-desk img{
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+#desk-nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 30px;
+}
+
+#desk-nav li {
+  display: inline;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+#desk-nav ul li #booknow {
+   color: white;
+   background-color:#9a2018;
+   padding: 47px 47px;
+   margin-right: 0px;
+   border-right: 0px;
+   margin-bottom: 0px;
+   font-style: italic;
+   transition:all 1s ease;
+   cursor: pointer;
+}
+
+#desk-nav ul li #booknow:hover {
+   box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+}
+
+#desk-nav li:last-child {
+   margin-right: 0px;
+}
+
+#main-header-desk div {
+   padding-right: 30px;
+   border-right:rgb(196, 28, 28) solid 2px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.desk-hero-overlap {
+   grid-row: 1/1;
+}
+
+.desk-hero-img-h2 {
+   background: rgb(255, 255, 255);
+   padding: 15px 15px;
+   font-size: 14px;
+   grid-column: 1/4;
+   grid-row: 2/3;
+   align-self: end;
+}
+
+ .desk-hero-img-h2 span {
+   color: #9a2018;
+   font-size: 12px;
+   margin-bottom: 15px;
+   line-height: 20px;
+ }
+
+ #desk-hero-rooms h2:first-of-type {
+   border-top: solid 3px #CF6666;
+   margin-top: 15px;
+   padding-top: 20px;
+ } 
+
