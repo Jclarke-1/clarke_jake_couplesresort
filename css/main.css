@@ -456,54 +456,56 @@ body {
    padding-bottom: 20px;
  }
 
- #chateaus {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+ #room-displays-1 {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
  }
 
- #villas {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+ #room-displays-1 h3 {
+   display: flex;
+   justify-content: center;
  }
 
- #chalets {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+
+ #room-displays-2 {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
  }
 
- #masters {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+ #room-displays-2 h3 {
+   display: flex;
+   justify-content: center;
  }
 
- #exotics {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+ #room-displays-3 {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
  }
 
- #juniors {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
+ #room-displays-3 h3 {
+   display: flex;
+   justify-content: center;
  }
 
- #duplexes {
-   margin-left: 20px;
-   padding-bottom: 20px;
-   margin-bottom: 20px;
-   margin-top: 40px;
- }
+#room-displays-4 {
+   align-items: center;
+}
+
+#room-displays-4 h3 {
+   display: flex;
+   justify-content: center;
+   margin-right: 10px;
+}
+
 
  /* 10. --- Spa Page --- */
 
@@ -863,11 +865,21 @@ font-size: 13px;
    justify-content: space-evenly;
 }
 
+#room-options-top-row h3 {
+   display: flex;
+   justify-content: center;
+}
+
 #room-options-middle-row {
    margin-top: 70px;
    margin-bottom: 70px;
    display: flex;
    justify-content: space-evenly;
+}
+
+#room-options-middle-row h3 {
+   display: flex;
+   justify-content: center;
 }
 
 #rooms-options-bottom {
@@ -876,6 +888,12 @@ font-size: 13px;
    display: flex;
    justify-content: center;
 }
+
+#rooms-options-bottom h3 {
+   display: flex;
+   justify-content: center;
+}
+
 
 #main-footer-desk {
     background-image: url(../images/footer-bg.jpg);
