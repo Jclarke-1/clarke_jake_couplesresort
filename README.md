@@ -1,5 +1,6 @@
 # Completed Couples Resort Build
-The completed couples resort build for IDP
+A completed redesign and refresh of the initial Couplesresort.ca website based of it's previous appearance. This refresh gives it a new colour pallete and overall layout design for a mobile viewport and one desktop viewport.
+Completed pages are the Index (Home), Room Comparison Pages (Mobile and Desktop) FAQ and Spa pages (Mobile only)
 ## Installation
 No installation needed, just drag the html files into your preferred browser
 ## Usage
